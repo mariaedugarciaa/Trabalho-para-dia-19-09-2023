@@ -23,21 +23,31 @@ body{
 .pont{
     float: left;
     width: 33.3%;
+    height: 20%;
     border: solid 1px;
-    padding: 10px;
+    padding: 20px;
     margin: 1px;
     display: inline-block;
     
     
 }
+
 .rodape{
     float: left;
     width:80%
+
+    
 }
 .rodape2{
     float: right;
     width: 20%;
+    background-color:aqua
 }
-.container2{
+.pont img{
     width: 100%;
+   
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
