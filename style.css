@@ -11,7 +11,7 @@ body{
 }
 .topom{
     float: left;
-    width: 33.5%;
+    width: 33.3%;
     text-align: center;
     border: solid 4px;
     background-color: brown;
@@ -22,8 +22,19 @@ body{
 }
 .pont{
     float: left;
-    width: 27.8%;
-    border: 2px;
-    padding: 5px;
-    border-radius: 3px;
+    width: 150px;
+    border: solid 1px;
+    padding: 10px;
+    margin: 1px;
+    display: inline-block;
+    
+    
+}
+.rodape{
+    float: left;
+    width:80%
+}
+.rodape2{
+    float: right;
+    width: 20%;
 }
