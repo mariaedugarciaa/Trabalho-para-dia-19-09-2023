@@ -2,7 +2,7 @@
     box-sizing:border-box;
 }
 body{
-    margin: 0%;
+    margin: 2%;
     padding: 0%;
     background-color: beige;
     color: black;
@@ -22,12 +22,15 @@ body{
 }
 .pont{
     float: left;
-    width: 48%;
-    height: 30%;
-    border: solid 1px;
-    padding: 20px;
+    width: 49%;
+    height: 50%;
+    border-width: 15px; 
+    border: 20px;
+    padding: 10px;
     padding-left: 30px;
     margin: 1px;
+    text-align:center;
+    margin-top: auto;
     
     
     
@@ -35,20 +38,31 @@ body{
 
 .rodape{
     float: left;
-    width:80%
+    background-color: rgb(42, 65, 165);
+    margin: 1px;
+    border-left: 10px;
+    border-style: dashed;
+    width: 70%;
 
-    
+
+
 }
 .rodape2{
     float: right;
-    width: 20%;
-    background-color:aqua
+    background-color: rgb(20, 138, 128);
+    margin: 1px;
+    border-right: 10px;
+    border-style: dashed;
+    width: 30%;
+
+    
 }
 .pont img{
-    width: 100%;
+   width: 100%;
+   text-align: center;
+   height :100%
    
 }
 .container{
-    max-width: 1200px;
     margin: 0 auto;
 }
