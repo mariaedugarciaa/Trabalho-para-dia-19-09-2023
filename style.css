@@ -22,8 +22,7 @@ body{
 }
 .pont{
     float: left;
-    width: 49%;
-    height: 50%;
+    width : 33.3%;
     border-width: 15px; 
     border: 20px;
     padding: 10px;
@@ -31,7 +30,9 @@ body{
     margin: 1px;
     text-align: center;
     margin-top: auto;
-    
+    color:beige;
+    margin: 0%;
+    background-color: chocolate;    
     
     
 }
@@ -54,17 +55,19 @@ body{
     margin: 1px;
     border-right: 10px;
     border-style: dashed;
-    width: 30%;
+    width: 33.3%;
     height: 100px;
 
     
 }
 .pont img{
-   width: 100%;
-   text-align: center;
-   height :100%
-   
-}
+    width: 33.3%;
+    text-align: center;
+    
+    
+ }
 .container{
     margin: 0 auto;
+    background-color: burlywood;
+    color: chocolate;
 }
