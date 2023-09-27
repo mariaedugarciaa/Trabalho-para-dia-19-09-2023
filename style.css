@@ -2,8 +2,6 @@
     box-sizing:border-box;
 }
 body{
-    margin: 2%;
-    padding: 0%;
     background-color: beige;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -16,26 +14,26 @@ body{
     border: solid 4px;
     background-color: brown;
     padding:10px;
+    color: black;
 }
 .topom:hover{
     background-color: wheat;
 }
 .pont{
+
     float: left;
-    width : 33.3%;
-    border-width: 15px; 
-    border: 20px;
-    padding: 10px;
-    padding-left: 30px;
-    margin: 1px;
     text-align: center;
-    margin-top: auto;
-    color:beige;
-    margin: 0%;
-    background-color: chocolate;    
-    
-    
+    background-color: brown;
+    color: black;
+    width: 33.3%;
+    border-radius: 10px;
+    margin: 5px;
+    display: block;
+
+
 }
+     
+
 
 .rodape{
     float: left;
@@ -60,14 +58,5 @@ body{
 
     
 }
-.pont img{
-    width: 33.3%;
-    text-align: center;
-    
-    
- }
-.container{
-    margin: 0 auto;
-    background-color: burlywood;
-    color: chocolate;
-}
+
+
