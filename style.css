@@ -19,6 +19,9 @@ body{
 .topom:hover{
     background-color: wheat;
 }
+.pont1:hover{
+    background-color: wheat;
+}
 .pont1{
 
     float: left;
@@ -36,7 +39,8 @@ body{
 
 .rodape{
     float: left;
-    background-color: rgb(165, 42, 42);
+    background-color: black;
+    color: white;
     margin: 1px;
     border-left: 10px;
     border-style: dashed;
@@ -45,6 +49,10 @@ body{
 
 
 
+}
+.rodape:hover{
+    background-color: cadetblue;
+    color: black;
 }
 .rodape2{
     float: right;
